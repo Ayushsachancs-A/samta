@@ -1,14 +1,17 @@
 .timer-container {
     text-align: center;
-    background: #fff;
+    background: #2dbdb1;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-color: black;
     width: 300px;
-    margin: 50px auto;
+    margin-top: 250px;
+    margin-left: 600px;
+    border: 5px solid black;
 }
 
 input {
+    border: 2px solid black;
     width: 60px;
     padding: 5px;
     margin: 5px;
@@ -16,6 +19,9 @@ input {
 }
 
 button {
+    border: 2px solid black;
+
+    
     padding: 10px 20px;
     margin: 5px;
     font-size: 16px;
@@ -25,4 +31,9 @@ button {
 #countdown-display {
     font-size: 48px;
     margin-top: 20px;
+}
+
+body {
+    background-image: url('C:\Users\imean\OneDrive\Desktop\samta\countdown-timer\public\bg.jpg');
+    background-size: cover;
 }

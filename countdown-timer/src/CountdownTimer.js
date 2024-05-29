@@ -58,7 +58,7 @@ const CountdownTimer = () => {
                 max="59"
                 disabled={isActive}
             />
-            <button onClick={handleStart} disabled={isActive}>Start</button>
+            <button onClick={handleStart} disabled={isActive} Style="">Start</button>
             <button onClick={handleStop}>Stop</button>
             <div id="countdown-display">{formatTime(timeLeft)}</div>
         </div>
